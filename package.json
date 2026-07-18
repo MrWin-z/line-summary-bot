@@ -1,0 +1,16 @@
+{
+  "name": "line-summary-bot",
+  "version": "1.0.0",
+  "description": "LINE bot webhook server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^10.0.0",
+    "express": "^5.0.0"
+  }
+}
